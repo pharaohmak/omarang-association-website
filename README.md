@@ -2,15 +2,6 @@
 
 This repository contains the HTML and CSS code for the Omarang Organization's website, designed to provide information about the organization, its initiatives, and how to get involved.
 
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Description
 
 The Omarang Organization website serves as a platform to showcase the organization's mission, projects, and community efforts. It includes sections such as:
