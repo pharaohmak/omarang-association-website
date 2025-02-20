@@ -2,6 +2,7 @@
 
 Welcome to the Omarang Association website project. This project is dedicated to creating a digital presence for the Omarang Association, an organization committed to providing assistance and support to families in the Nuba Mountains of Sudan during times of hardship. The website aims to inform, engage, and encourage donations to support the association's mission.
 
+<<<<<<< HEAD
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -12,6 +13,9 @@ Welcome to the Omarang Association website project. This project is dedicated to
 - [License](#license)
 
 ## Project Overview
+=======
+## Description
+>>>>>>> f41bc9569606a4a74725f59da59cdbebf5263375
 
 The Omarang Association website is designed to provide information about the organization's mission, events, and initiatives. It also serves as a platform for collecting donations and showcasing the impact of the association's work. The website includes sections for news updates, donor testimonials, and a call-to-action for donations.
 
