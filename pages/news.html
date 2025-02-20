@@ -1,54 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../style.css">
-
-    <title>News | Omarang Association in USA</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>News | Omarang Association in USA</title>
 </head>
+
 <body>
-    
-    <header>
-        <div class="desktop" id="logo">
-          <a href="/index.html"><img src="../images/Official+Omarang+Association+Logo.png" alt=" " style="height: 70px;"></a>
-        </div>
-        <nav class="desktop">
-          <ul>
-            <li><a href="/pages/about.html">About</a></li>
-            <li><a href="/pages/news.html">News</a></li>
-            <li><a href="/pages/donate.html">Donate</a></li>
-          </ul>
-        </nav>
-        <nav class="mobile">
-          <a href="#"><img src="./images/ic-logo.svg" alt=""></a>
-          <a href="#"><img src="./images/ic-on-campus.svg" alt=""></a>
-          <a href="#"><img src="./images/ic-online.svg" alt=""></a>
-          <a href="#"><img src="./images/ic-login.svg" alt=""></a>
-        </nav>
-      </header>
+  <header class="header">
+    <div class="header__logo">
+      <a href="/index.html"><img src="../images/Official+Omarang+Association+Logo.png" alt="Omarang Association Logo"
+          style="height: 70px;"></a>
+    </div>
+    <nav class="header__nav header__nav--desktop">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="/pages/about.html" class="header__nav-link">About</a></li>
+        <li class="header__nav-item"><a href="/pages/news.html" class="header__nav-link">News</a></li>
+        <li class="header__nav-item"><a href="/pages/donate.html" class="header__nav-link">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <main class="news-page-content">
-        <div class="news-hot-topics">
+  <main class="news-page-content">
+    <section class="news-hot-topics">
+      <h1 class="news-hot-topics__title">Hot Topics</h1>
+      <div class="news-hot-topics__list">
+        <article class="news-hot-topics__item">
+          <h2 class="news-hot-topics__item-title">Community</h2>
+        </article>
+        <article class="news-hot-topics__item">
+          <h2 class="news-hot-topics__item-title">Education</h2>
+        </article>
+        <article class="news-hot-topics__item">
+          <h2 class="news-hot-topics__item-title">Leadership</h2>
+        </article>
+      </div>
+    </section>
 
-        </div>
+    <section class="news-updates">
+      <h2 class="news-updates__title">Events</h2>
+      <div class="news-updates__list">
+        <article class="news-updates__item">
+          <aside class="news-updates__item-image-container">
+            <img src="/images/img/B2FC1902-1C59-4791-A4B4-228CE7D3B597.jpeg" alt="New School Building Inauguration" class="news-updates__item-image">
+          </aside>
+          <div class="news-updates__item-content">
+            <h3 class="news-updates__item-title">New School Building Inauguration</h3>
+            <p class="news-updates__item-text">We are excited to announce the inauguration of a new school building in the
+              Nuba Mountains, providing better educational facilities for children. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptates, voluptatum alias minima quidem tenetur rerum laboriosam dolor assumenda ullam?
+              Dignissimos praesentium mollitia accusantium impedit ipsum culpa! Ullam dicta, odit sunt aspernatur et
+              accusantium voluptate hic enim possimus quis eveniet corrupti quas quae eaque accusamus beatae rerum vero
+              eos mollitia similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta esse ullam
+              dignissimos aspernatur repellendus accusamus perferendis officiis, molestiae, id eum omnis modi ex
+              laudantium voluptatum, aut ad at quod! Quod modi similique impedit exercitationem aperiam facilis nulla
+              tenetur aliquam laborum ullam dolores molestiae consequatur mollitia dolorem ipsa cumque, vel non repellat
+              ducimus natus dolor placeat. Nostrum molestiae, laudantium totam eos voluptatem modi voluptatum ullam,
+              deserunt sunt animi explicabo iusto sit consequatur. Quas quod pariatur aspernatur ipsum quaerat,
+              necessitatibus reprehenderit sapiente exercitationem debitis eum veniam praesentium id ullam laborum qui
+              voluptas molestias sequi suscipit sit repellendus doloribus perferendis deleniti. Sit, reprehenderit.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="news-articles">
+      <h2 class="news-articles__title">Latest News and Updates</h2>
+      <div class="news-articles__list">
+        <article class="news-articles__item">
+          <h3 class="news-articles__item-title">Annual Fundraising Gala</h3>
+          <p class="news-articles__item-text">Join us for our annual fundraising gala to support our ongoing projects
+            and initiatives. Your contributions make a difference!</p>
+        </article>
+        <article class="news-articles__item">
+          <h3 class="news-articles__item-title">Volunteer Appreciation Event</h3>
+          <p class="news-articles__item-text">We recently held an event to appreciate our volunteers for their hard work
+            and dedication. Thank you to all who attended!</p>
+        </article>
+        <article class="news-articles__item">
+          <h3 class="news-articles__item-title">New Partnership Announcement</h3>
+          <p class="news-articles__item-text">We are thrilled to announce a new partnership with XYZ Corporation to
+            further our mission and expand our reach.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-        <div class="news-sidebar">
-
-        </div>
-        
-        <div>
-
-        </div>
-      </main>
-
-      <footer>
-        <p>&copy;2000 Omarang Association in U.S.A. All rights reserved.</p>
-        <div class="links">
-          <a href="#">Terms</a><a href="#">Privacy</a>
-        </div>
-      </footer>
+  <footer class="footer">
+    <p class="footer__text">&copy;2000 Omarang Association in U.S.A. All rights reserved.</p>
+    <div class="footer__links">
+      <a href="#" class="footer__link">Terms</a>
+      <a href="#" class="footer__link">Privacy</a>
+    </div>
+  </footer>
 </body>
+
 </html>

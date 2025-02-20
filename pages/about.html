@@ -6,37 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-
     <title>About | Omarang Association in USA</title>
 </head>
 
 <body>
-    <header>
-        <div class="desktop" id="logo">
-            <a href="/index.html"><img src="../images/Official+Omarang+Association+Logo.png" alt=" "
-                    style="height: 70px;"></a>
+    <header class="header">
+        <div class="header__logo">
+            <a href="/index.html"><img src="../images/Official+Omarang+Association+Logo.png" alt="Omarang Association Logo" style="height: 70px;"></a>
         </div>
-        <nav class="desktop">
-            <ul>
-                <li><a href="/pages/about.html">About</a></li>
-                <li><a href="/pages/news.html">News</a></li>
-                <li><a href="/pages/donate.html">Donate</a></li>
+        <nav class="header__nav header__nav--desktop">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="/pages/about.html" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="/pages/news.html" class="header__nav-link">News</a></li>
+                <li class="header__nav-item"><a href="/pages/donate.html" class="header__nav-link">Donate</a></li>
             </ul>
-        </nav>
-        <nav class="mobile">
-            <a href="#"><img src="./images/ic-logo.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-on-campus.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-online.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-login.svg" alt=""></a>
         </nav>
     </header>
 
     <main class="about-page-content">
         <article class="about-intro">
-            <img src="../images/banner-2.jpeg" alt="">
+            <img src="../images/banner-2.jpeg" alt="Banner" class="about-intro__image">
             <div>
-                <h1>About Us</h1>
-                <p class="about-us">
+                <h1 class="about-intro__title">About Us</h1>
+                <p class="about-intro__text">
                     Omarang Association in USA is an organization dedicated to preparing a strong future generation of
                     Omarang Community through social services and education programs both domestically and abroad. Our
                     mission is to promote self-sufficiency, development, respect for all, continuation of cultural heritage,
@@ -61,13 +53,12 @@
             </div>
         </article>
         <section class="banner">
-            <h3>“We cannot be separated in interest or divided in purpose. We stand together until the end.”</h3>
-
+            <h3 class="banner__quote">“We cannot be separated in interest or divided in purpose. We stand together until the end.”</h3>
         </section>
         <section class="company-statement">
-            <div>
-                <h1>Vision Statement</h1>
-                <p>
+            <div class="company-statement__vision">
+                <h1 class="company-statement__title">Vision Statement</h1>
+                <p class="company-statement__text">
                     Omarang Association in the USA has an ambitious vision to bring together and foster unity among Omarang
                     Community members through innovative approaches that honor traditional customs, values, and beliefs.
                     With our collective efforts, we strive to elevate educational standards for all Omarang families, as
@@ -75,11 +66,10 @@
                     of crisis.
                 </p>
             </div>
-            
-            <div>
-                <h1>Company History</h1>
-                <p>
-                    Omarang Association was founded in 2000. with the purpose of providing aid and assistance to both
+            <div class="company-statement__history">
+                <h1 class="company-statement__title">Company History</h1>
+                <p class="company-statement__text">
+                    Omarang Association was founded in 2000 with the purpose of providing aid and assistance to both
                     Omarang communities within the United States and those located in Sudan's Nuba Mountains. Our vision is
                     to ensure that children are given access to educational opportunities, while also helping families
                     improve their lifestyles. We strive to fulfill this mission by adhering to a code of conduct that guides
@@ -93,13 +83,13 @@
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy;2000 Omarang Association in U.S.A. All rights reserved.</p>
-        <div class="links">
-          <a href="#">Terms</a><a href="#">Privacy</a>
+    <footer class="footer">
+        <p class="footer__text">&copy;2000 Omarang Association in U.S.A. All rights reserved.</p>
+        <div class="footer__links">
+            <a href="#" class="footer__link">Terms</a>
+            <a href="#" class="footer__link">Privacy</a>
         </div>
-      </footer>
-
+    </footer>
 </body>
 
 </html>

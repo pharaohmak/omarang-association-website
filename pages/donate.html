@@ -5,93 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="../style.css">
-
     <title>Donate | Omarang Association in USA</title>
 </head>
 
 <body>
-    <header>
-        <div class="desktop" id="logo">
-            <a href="/index.html"><img src="../images/Official+Omarang+Association+Logo.png" alt=" "
-                    style="height: 70px;"></a>
+    <header class="header">
+        <div class="header__logo">
+            <a href="/index.html"><img src="../images/Official+Omarang+Association+Logo.png" alt="Omarang Association Logo" style="height: 70px;"></a>
         </div>
-        <nav class="desktop">
-            <ul>
-                <li><a href="/pages/about.html">About</a></li>
-                <li><a href="/pages/news.html">News</a></li>
-                <li><a href="/pages/donate.html">Donate</a></li>
+        <nav class="header__nav header__nav--desktop">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="/pages/about.html" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="/pages/news.html" class="header__nav-link">News</a></li>
+                <li class="header__nav-item"><a href="/pages/donate.html" class="header__nav-link">Donate</a></li>
             </ul>
-        </nav>
-        <nav class="mobile">
-            <a href="#"><img src="./images/ic-logo.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-on-campus.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-online.svg" alt=""></a>
-            <a href="#"><img src="./images/ic-login.svg" alt=""></a>
         </nav>
     </header>
 
     <main class="donate-page-content">
+        <section class="cta-banner">
+            <h3 class="cta-banner__title">HELP TODAY</h3>
+            <h1 class="cta-banner__subtitle">Your contribution can make a difference in the lives of many.</h1>
+            <button class="cta-banner__button">Donate</button>
+        </section>
 
-        <div class="cta-banner">
-            <!-- Add background image -->
-            <h3>HELP TODAY</h3>
-
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, impedit.</h1>
-
-            <!-- link donation button to donation form -->
-            <button>Donate</button>
-
-        </div>
-
-        <div class="progress-bar">
-            <!-- insert progress bar for total donations to date-->
-            <!-- add button to donation formm -->
-            <div class="progress-labels">
-                <label for="file"><span class="progress">$0</span> raised</label>
-                <label for="file"><span class="goal">$10,000</span> goal</label>
+        <section class="progress-bar">
+            <div class="progress-bar__labels">
+                <label for="file"><span class="progress-bar__progress">$3,200</span> raised</label>
+                <label for="file"><span class="progress-bar__goal">$10,000</span> goal</label>
             </div>
             <progress id="file" value="32" max="100"> 32% </progress>
+        </section>
 
-        </div>
+        <section class="donation-info">
+            <h2 class="donation-info__title">Why Donate?</h2>
+            <p class="donation-info__text">
+                Your donations help us provide essential services and educational programs to the Omarang Community. With your support, we can continue to make a positive impact and create a brighter future for many families.
+            </p>
+        </section>
 
-        <div class="donors-list">
-            <!-- filter donations for recent donations and top donations -->
-
-            <div class="filter-btns">
-                <button>Recent Donations</button>
-                <button>Top Donations</button>
+        <section class="donors-list">
+            <h2 class="donors-list__title">Our Donors</h2>
+            <div class="donors-list__filter-btns">
+                <button class="donors-list__button">Recent Donations</button>
+                <button class="donors-list__button">Top Donations</button>
             </div>
 
-            <table style="width:100%">
+            <table class="donors-list__table">
                 <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Age</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Amount</th>
                 </tr>
-                <tr style="height:44px;">
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
+                <tr>
+                    <td>Musa</td>
+                    <td>Koudi</td>
+                    <td>$500</td>
                 </tr>
-                <tr style="height: 44px;">
-                    <td>Eve</td>
-                    <td>Jackson</td>
-                    <td>94</td>
+                <tr>
+                    <td>Phillip</td>
+                    <td>Tutu</td>
+                    <td>$1,000</td>
+                </tr>
+                <tr>
+                    <td>Anwar</td>
+                    <td>Kori</td>
+                    <td>$200</td>
                 </tr>
             </table>
+        </section>
 
-        </div>
+        <section class="testimonials">
+            <h2 class="testimonials__title">What Our Donors Say</h2>
+            <div class="testimonials__list">
+                <article class="testimonials__item">
+                    <p class="testimonials__text">"Donating to Omarang Association has been a fulfilling experience. Knowing that my contribution is making a difference in the lives of many is truly rewarding." - Sarah K.</p>
+                </article>
+                <article class="testimonials__item">
+                    <p class="testimonials__text">"I am proud to support an organization that is dedicated to education and community development. Keep up the great work!" - Michael B.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <h2 class="call-to-action__title">Ready to Make a Difference?</h2>
+            <p class="call-to-action__text">Join us in our mission to support the Omarang Community. Your donation, no matter the size, can have a significant impact.</p>
+            <button class="call-to-action__button">Donate Now</button>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy;2000 Omarang Association in U.S.A. All rights reserved.</p>
-        <div class="links">
-            <a href="#">Terms</a><a href="#">Privacy</a>
+    <footer class="footer">
+        <p class="footer__text">&copy;2000 Omarang Association in U.S.A. All rights reserved.</p>
+        <div class="footer__links">
+            <a href="#" class="footer__link">Terms</a>
+            <a href="#" class="footer__link">Privacy</a>
         </div>
     </footer>
-
 </body>
 
 </html>
