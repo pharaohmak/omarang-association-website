@@ -157,6 +157,13 @@ ul {
   line-height: 1rem;
 }
 
+.header__logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
 /* Sections */
 /* Cover */
 .cover {
@@ -276,7 +283,6 @@ ul {
 
   .header__logo {
     height: 4rem;
-    margin: 0 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
